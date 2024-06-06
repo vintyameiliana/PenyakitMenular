@@ -1,0 +1,231 @@
+.navbar {
+    background-color: #ffffff;
+  }
+
+.navbar-brand {
+    font-weight: 500 ;
+    color: #009970 ;
+    font-size: 24px ;
+    transition: 0.3s color;
+  }
+
+.offcanvas-title {
+    color: #009970;
+  }
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem ;
+  }
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none ;
+    outline : none ;
+  }
+
+.nav-link {
+    color: #666777 ;
+    font-weight: 500;
+    position: relative;
+  }
+
+.nav-link:hover, .nav-link.active {
+    color: #000 ;
+  }
+
+@media (min-width: 991px) {
+  .nav-link::before {
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #009970;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::before, .nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+  }
+  }
+ 
+html, .header-container {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
+.header-container {
+    background: url('virus.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+.header-content{
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  .header-content h2 {
+    font-size: 4vmin;
+  }
+
+  .line {
+    width: 150px;
+    height: 4px;
+    background: #009970;
+    margin: 10px auto;
+    border-radius: 5px;
+  }
+
+  .header-content h1{
+    font-size: 10vmin;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .grafik-utama {
+    flex: 1;
+    padding: 10px;
+    margin: 30px;
+    align-items: center;
+  }
+
+  .button{
+    padding: 8px 20px;
+    background: #009970;
+    color: whitesmoke;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+  }
+
+  .button:hover{
+    color: #00b383 ;
+  }
+
+  .penyakit{
+    width: 100%;
+    margin: 100px auto;
+    height: 80vh;
+  }
+
+  .penyakit-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-content: middle;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 5vmin;
+    color: rgb(68, 55, 55); 
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .row .col {
+    font-size: 2vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    width: 30%;
+  }
+
+  .col {
+    text-align:justify;
+    background-color: #eaf1f0;
+    padding: 0;
+    height: 400px;
+    box-sizing: border-box;
+    align-items: center;
+  }
+
+  h4 {
+    font-size: 3.5vmin;
+    color: #37373d;
+    margin: 20px auto;
+  }
+
+  p {
+    color: rgb(41, 35, 35);
+    padding: 0px 40px;
+    font-size: 2.5vmin;
+  }
+
+  .overflow-auto {
+    overflow: auto;
+  }
+
+  html, .alur {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+
+  .alur {
+    background-image: url('olah-data.jpg');
+    background-size: cover;
+    align-items: center;
+    display: flex;
+  }
+
+  .alur-content {
+    width: 60%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+  }
+
+  .alur .line {
+    margin-bottom: 30px;
+  }
+
+  .alur-content h1{
+    font-size: 7vmin;
+  }
+
+  .alur-content p{
+    color: whitesmoke;
+  }
+
+  .alur-content, .ctn {
+    margin-top: 100px;
+  }
+
+  .footer {
+    width: 100% ;
+    height: 70px;
+    padding: 20px 80px;
+    margin: 0;
+    background-color: whitesmoke;
+    text-align: center;
+  }
+  
+  .footer p {
+    color: #000000;
+  }
+

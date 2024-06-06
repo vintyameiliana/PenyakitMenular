@@ -1,0 +1,45 @@
+<ol>
+  <li>data penyakit menular bersumber dari https://opendata.jabarprov.go.id/</li>
+  <li>Ambil dataset penyakit menular ,yaitu Malaria, Tuberkulosis, dan HIV pada tahun 2021</li>
+    <ol>
+        <li>Malaria<br>		
+            <p>https://opendata.jabarprov.go.id/id/dataset/jumlah-kasus-penyakit-malaria-berdasarkan-kabupatenkota-di-jawa-barat</p></li>
+        <li>Tuberkulosis<br> 	
+            <p>https://opendata.jabarprov.go.id/id/dataset/jumlah-kasus-penyakit-tuberkulosis-berdasarkan-kabupatenkota-di-jawa-barat</p></li>
+        <li>HIV<br> 		
+            <p>https://opendata.jabarprov.go.id/id/dataset/jumlah-kasus-hiv-berdasarkan-kabupatenkota-di-jawa-barat</p></li>
+    </ol>
+  <li>Lalu, terdapat data pendukung sebagai gambaran jumlah tenaga kesehatan dan fasilitas pelayanan kesehatan pada tahun 2021</li>
+    <ol>
+        <li>Tenaga Kesehatan<br>
+            https://subangkab.bps.go.id/statictable/2022/09/12/292/jumlah-tenaga-kesehatan-menurut-kabupaten-kota-di-provinsi-jawa-barat-2021-.html</li>
+        <li>Fasilitas Pelayanan Kesehatan<br>
+            https://opendata.jabarprov.go.id/id/dataset/jumlah-fasilitas-kesehatan-berdasarkan-jenis-di-jawa-barat</li>
+    </ol>
+  <li>Download dataset yang diperlukan dalam bentuk xls. dan lakukan proses data cleaning <br>
+    <p>Cleaning adalah Proses cleaning data atau pembersihan dilakukan terhadap data yang redudan atau ganda, inkonsisten, missing value dan outlier data.</p></li>
+  <li>Setelah data yang dibutuhkan sudah tersedia, tahap selanjutnya proses visualisasi data</li>
+</ol>
+
+            </div>
+            <div class="accordion-body">
+                
+            </div>
+            <div class="accordion-body">
+                
+            </div>
+            <div class="accordion-body">
+                
+            </div>
+            <div class="accordion-body">
+                a.	
+            </div>
+            <div class="accordion-body">
+                b.	
+            </div>
+            <div class="accordion-body">
+                
+            </div>
+            <div class="accordion-body">
+                
+            </div>

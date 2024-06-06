@@ -1,0 +1,165 @@
+.navbar {
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .navbar-brand {
+    font-weight: 500 ;
+    color: #009970 ;
+    font-size: 40px ;
+    transition: 0.3s color;
+  }
+
+  .offcanvas-title {
+    color: #009970;
+  }
+
+  .navbar-toggler {
+    border: none;
+    font-size: 1.25rem ;
+  }
+
+  .navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none ;
+    outline : none ;
+  }
+
+  .nav-link {
+    color: #666777 ;
+    font-weight: 500;
+    position: relative;
+    font-size: 23px;
+  }
+
+  .nav-link:hover, .nav-link.active {
+    color: #000 ;
+  }
+
+  @media (min-width: 991px) {
+  .nav-link::before {
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #009970;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+
+  .nav-link:hover::before, .nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+  }
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+}
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+  background-color: #009970;
+  color: #fff;
+  padding: 100px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  background-image:url('images/malaria2.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    width: 100%;
+
+}
+.main-content {
+    flex: 1;
+    padding: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+.side-content {
+    flex: 3;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+
+.box {
+    background-color: #009970;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    top: 2px;
+    left: 1px;
+    right: 10px;
+}
+
+.inner-box {
+  background-color: #eaf1f0;
+  color: #009970;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 20px; /* Menambahkan jarak atas antara kotak dalam */
+}
+
+.pilihan {
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #eaf1f0;
+  font-size: 20px;
+}
+th, td {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+th {
+  background-color: #009970;
+  color: #ffffff;
+  font-size: 23px;
+}
+
+.footer {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: auto;
+    width: 100% ;
+    height: 70px;
+    color: #000000;
+}
+
